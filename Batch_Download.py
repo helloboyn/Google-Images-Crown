@@ -10,11 +10,11 @@ import cv2
 import requests
 from imutils import paths
 
-text_path = r"C:\Users\DELL\3D Objects\Techvantage\urls_smiling.txt"
+text_path = r"C:\Users\urls.txt"
 # text_path = input("Enter_path : ")
 rows = open(text_path).read().strip().split("\n")
 total = 0
-save_path = r"C:\Users\DELL\3D Objects\Techvantage\Smilling"
+save_path = r"C:\Users\Dataset"
 
 for url in rows:
 	try:
